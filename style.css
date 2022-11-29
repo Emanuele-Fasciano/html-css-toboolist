@@ -12,8 +12,8 @@ body{
 #Toboolist{
     font-size: 40px;
     font-weight: 900;
-    display: inline-block;
-    
+    vertical-align: middle;
+    display: inline;
 }
 
 header{
@@ -21,4 +21,26 @@ header{
     padding-top: 20px;
     background-color: white;
     height: 100px;
+}
+ 
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    margin: auto;
+}
+
+.add{
+    height: 100px;
+    border-bottom-color: lightgray;
+}
+
+#editorial{
+    background-color: rgb(2, 171, 255);
+    display: inline-block;
+    padding: 8px;
+    border-radius: 30%;
 }
