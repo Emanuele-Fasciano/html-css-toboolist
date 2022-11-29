@@ -33,14 +33,44 @@ img{
     margin: auto;
 }
 
-.add{
-    height: 100px;
-    border-bottom-color: lightgray;
+#add-task-button{
+    background-color:rgb(2, 171, 255);
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 50px;
+    padding:10px 20px;
+    color: white;
+    border: none;
 }
 
-#editorial{
-    background-color: rgb(2, 171, 255);
+#add-section-button {
+    background-color:white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: lightgray;
+    border-color:lightgrey;
+}
+
+
+.add{
+    height: 100px;
+} 
+
+.button{
     display: inline-block;
     padding: 8px;
     border-radius: 30%;
+
+}
+
+.button .editorial {
+    background-color: rgb(2, 171, 255);
+}
+
+.button .goals{
+    background-color: rgb(132, 33, 224);
+}
+
+.button .recruiting{
+    background-color: aquamarine;
 }
